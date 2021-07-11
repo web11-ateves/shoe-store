@@ -1,0 +1,8 @@
+.inventory-enter {
+    opacity: 0.1;
+}
+.inventory-enter-active {
+    opacity: 1;
+    background-color: #FFD499;
+    transition: opacity .5s ease-in;
+}

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InventoryLine /> Component Renders correctly 1`] = `
+<WithStyles(WithStyles(ForwardRef(TableRow)))>
+  <WithStyles(WithStyles(ForwardRef(TableCell)))
+    align="left"
+    key="aderi"
+  >
+    ADERI
+  </WithStyles(WithStyles(ForwardRef(TableCell)))>
+  <InventoryCell
+    highlight={true}
+    key="8a1125d9-563c-4f68-8c14-eb5fab31f97e"
+    value={54}
+  />
+  <InventoryCell
+    highlight={false}
+    key="dab9d3cc-b8c7-4351-a19d-244f045dd074"
+    value={39}
+  />
+  <InventoryCell
+    highlight={false}
+    key="0374f551-8145-4acd-ba1f-e92dda4fb05f"
+    value={87}
+  />
+  <InventoryCell
+    highlight={false}
+    key="e520b797-e4bc-4983-abe9-17c20c869db0"
+    value={91}
+  />
+  <InventoryCell
+    highlight={false}
+    key="fb2f10a3-5d27-4ecb-98e6-df55c2033143"
+    value={52}
+  />
+  <InventoryCell
+    highlight={false}
+    key="4e321139-7d35-4801-8b7c-daa62b25218a"
+    value={79}
+  />
+  <InventoryCell
+    highlight={false}
+    key="6308cd46-cffb-4e32-9ac1-7ba6f190eb28"
+    value={45}
+  />
+  <InventoryCell
+    highlight={false}
+    key="8ac9d640-b849-4ee8-b1c9-011eca167f44"
+    value={12}
+  />
+  <InventoryCell
+    highlight={false}
+    key="56524eb8-eb0f-41b8-9023-6557d150589d"
+    value={21}
+  />
+</WithStyles(WithStyles(ForwardRef(TableRow)))>
+`;

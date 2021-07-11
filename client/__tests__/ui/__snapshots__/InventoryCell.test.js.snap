@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InventoryCell /> Component Renders correctly for critical inventory 1`] = `
+<CSSTransition
+  classNames="inventory"
+  in={true}
+  timeout={500}
+>
+  <WithStyles(WithStyles(ForwardRef(TableCell)))
+    align="center"
+    className="critical-inventory"
+  >
+    4
+  </WithStyles(WithStyles(ForwardRef(TableCell)))>
+</CSSTransition>
+`;
+
+exports[`<InventoryCell /> Component Renders correctly for high inventory 1`] = `
+<CSSTransition
+  classNames="inventory"
+  in={false}
+  timeout={500}
+>
+  <WithStyles(WithStyles(ForwardRef(TableCell)))
+    align="center"
+    className="high-inventory"
+  >
+    90
+  </WithStyles(WithStyles(ForwardRef(TableCell)))>
+</CSSTransition>
+`;
+
+exports[`<InventoryCell /> Component Renders correctly for warning inventory 1`] = `
+<CSSTransition
+  classNames="inventory"
+  in={false}
+  timeout={500}
+>
+  <WithStyles(WithStyles(ForwardRef(TableCell)))
+    align="center"
+    className="warning-inventory"
+  >
+    19
+  </WithStyles(WithStyles(ForwardRef(TableCell)))>
+</CSSTransition>
+`;
