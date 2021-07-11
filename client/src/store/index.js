@@ -29,12 +29,12 @@ export const initialState = {
 const { console } = window;
 
 const logger = (store) => (next) => (action) => {
-  console.groupCollapsed('dispatching', action.type);
-  console.log('prev state', store.getState());
-  console.log('action', action);
+  // console.groupCollapsed('dispatching', action.type);
+  // console.log('prev state', store.getState());
+  // console.log('action', action);
   const result = next(action);
-  console.log('next state', store.getState());
-  console.groupEnd();
+  // console.log('next state', store.getState());
+  // console.groupEnd();
   return result;
 };
 
